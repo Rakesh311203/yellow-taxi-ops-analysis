@@ -7,7 +7,7 @@ End-to-end operations analysis of 2.8 million NYC Yellow Taxi trips (January 202
 using Python. Built to demonstrate AI-assisted analysis workflows including data
 cleaning, query generation, output validation, and insight communication.
 
-**Tools:** Python · pandas · matplotlib · Claude (AI assist)
+**Tools:** Python · pandas · matplotlib · Claude , Gemini (AI assist)
 
 ---
 
