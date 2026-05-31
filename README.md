@@ -47,37 +47,12 @@ based on operational logic and validated by cross-checking flagged rows.
 
 ---
 
-## Key Findings
-
-**Demand**
-- [Add your finding — e.g. "Friday 6–8pm accounts for X% of weekly peak volume"]
-- Top 3 pickup zones account for disproportionate share of total trips
-
-**Operational Efficiency**
-- Average speed drops significantly between [hours] — congestion window
-- [Day] shows highest trip duration variance, indicating unpredictable service times
-
-**Fare Efficiency**
-- [X] zones fall below median fare-per-mile among top 20 zones
-- Short-haul trips in high-congestion zones show the worst revenue-per-mile ratio
-
----
-
 ## How AI Was Used
 | Task | AI role | Human validation |
 |------|---------|-----------------|
 | Cleaning code | Generated pandas logic | Thresholds set manually |
 | Analysis queries | Drafted groupby and aggregation code | Logic verified before running |
 | Insight framing | First draft of findings | Rewritten with actual numbers |
-
----
-
-## Files
-| File | Description |
-|------|-------------|
-| `cleaning.ipynb` | Data loading and cleaning pipeline |
-| `analysis.ipynb` | All three business question analyses |
-| `charts/` | Output visualisations |
 
 ---
 Key insights
